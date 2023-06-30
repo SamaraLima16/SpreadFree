@@ -6,85 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpreadFree - Página Inicial</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/home.css">
 
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="imagens/Logotipo.png" alt="logo do site" class="logoHome"></a>   <button class="hamburguer">
-           
+        <a href="home.html"><img src="img/Logotipo.png" alt="logo do site" class="logoHome"></a>  
+                
+        <button class="hamburguer">
             <div class="bar">
-            
             </div>
         </button>
-       <nav class="mobile-nav">
-               <a href="perfil.html"><img src="imagens/icon_user_u27.svg" alt="foto de usuario"></a>
+        
+        <nav class="mobile-nav">
+            
+            <a href="perfil.html"><img src="img/icon_user_u27.svg" alt="foto de usuario"></a>
             <h4>Entre ou cadastre sua conta</h4>
-            <button class="entrar">Entrar</button>
-            <a href="cadastroPFisica.html" class="cadastrar">Cadastrar</a>
-                <a href="index.html" class="itemMenu"> Início </a>
-                <a href="" class="itemMenu"> Premium </a>
-                <a href="" class="itemMenu"> Ajuda </a>
-                <a href="" class="itemMenu"> Sobre </a>
+            <a href="loginfisica.html" class="entrar">Entrar</a>
+            <a href="cadastro.html" class="cadastrar">Cadastrar</a>
+            <a href="home.html" class="itemMenu"> Início </a>
+            <a href="premium.html" class="itemMenu"> Premium </a>
+            <a href="Comunidade.html" class="itemMenu"> Comunidade </a>
+            <a href="discovery.html" class="itemMenu"> Descobrir </a>
+            <a href="ajuda.html" class="itemMenu"> Ajuda </a>
+            <a href="sobre.html" class="itemMenu"> Sobre </a>
         </nav>
     </header>
+    
     <main class="mainHome">
-        <img src="imagens/programadorHome.png" alt="" class="programadorHome">
-        <h1 class="imgText">Autônomos de qualquer área. Só aqui, na SpreadFree</h1>
+<img src="img/homeimagem.png" class="programadorHome">
+<h1 class="Isso">Autônomos de qualquer área <br>só aqui, na SpreadFree.</br></h1>
 
-        <img src="imagens/lupa.svg" alt="" class="lupa">
+        <img src="img/lupa.svg" alt="" class="lupa">
         <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisa..." class="barraPesquisa">
-        <img src="imagens/bus/lia.svg" alt="" class="bussola">
-
-        <h2 class="sobreSite">Sobre o nosso site</h2>
-        <p class="paragSobre">O objetivo desse site é divulgar, 
-            agregar trabalhos informais e facilitar o crescimento de 
-            pequenos comércios e trabalhadores autônomos no Brasil.</p>
-
+        <img src="img/bussola.svg" alt="" class="bussola">
            
             <div class="horizontal-scroll-wrapper squares">
                
                 <div>
-                    <img src="imagens/pedreiro_u64.svg" alt="" class="pedreiro">
+                    <a href="pedreiroscrool.html">
+                    <img src="img/pedreiro_u64.svg" alt="" class="pedreiro"> </a>
                     <h3 class="pedreiroText">Pedreiro</h3>
                 </div>
                
                 <div>
-                    <img src="imagens/confeiteiro_u66.svg" alt="" class="confeiteiro">
+                    <img src="img/confeiteiro_u66.svg" alt="" class="confeiteiro">
                     <h3 class="confeiteiraText">Confeiteira</h3>
                 </div>
                
                 <div>
-                    <img src="imagens/empregada_u68.svg" alt="" class="empregada">
+                    <img src="img/empregada_u68.svg" alt="" class="empregada">
                     <h3 class="empregadaText">Empregada</h3>
                 </div>
                
                     <div>
-                    <img src="imagens/ProfParti.svg" alt="" class="profPart">
-                    <h3 class="profPartText">Professor Partí/liar</h3>
-                </div>
-               
-                    <div>
-                    <img src="imagens/ProgramadorWEB.svg" alt="" class="programadorWeb">
+                    <img src="img/ProgramadorWEB.svg" alt="" class="programadorWeb">
                     <h3 class="programadorWebText">Programador</h3>
                 </div>
                
+                <div>
+                    <img src="img/ProfParti.svg" alt="" class="profPart">
+                    <h3 class="profPartText">Professor Partícular</h3>
+                </div>
+               
+
                     <div>
-                    <img src="imagens/EditorVD.svg" alt="" class="editorVD">
+                    <img src="img/EditorVD.svg" alt="" class="editorVD">
                     <h3 class="EditorVDText">Editor de Vídeo</h3>
                 </div>
               
                 </div>
+            
 
                 <h2 class="destaqueDia"> Destaques do dia</h2>
-
-                <img class="mySlides" src="imagens/Rafaela.PNG">
-                <img class="mySlides" src="imagens/Renato.PNG">
-                <a href="perfilRafaela.html"><img class="mySlides" src="imagens/Fernanda.PNG"></a>
+                
+                <a href="perfilRaphaela.html"><img class="mySlides" src="img/Rafaela.PNG"></a>
+                <a href="perfilRenato.html"><img class="mySlides" src="img/Renato.PNG"></a>
+                <a href="perfilFernanda.html"> <img class="mySlides" src="img/Fernanda.PNG"></a>
+                
 
                 <button class="w3-button-w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="w3-button-w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-
+            
+    
+                <div class ="fundoroxo">
                 <h2 class="premium"> Por que ser Premium?</h2>
                 <p class="pqPremiumText">Com o nosso Premium você consegue usufruir de 100% do potencial do nosso site!
                     Confira alguns dos nossos benefícios logo abaixo.</p>
@@ -93,20 +98,20 @@
                         <h3 class="premiumTitle">Premium</h3>
                         <h4 class="planSem">Plano semanal <br> R$ 07,00/sem</h4>
                         <ul class="contentPlan">
-                            <li> <img src="imagens/normal_u36.svg"> Destaques nas áreas de pesquisa do site</li>
-                            <li> <img src="imagens/normal_u36.svg"> Boost de alcance na aba comunidade</li>
-                            <li> <img src="imagens/normal_u36.svg"> Prioridade na fila de espera do suporte</li>
+                            <li> <img src="img/correto.svg"> Destaques nas áreas de pesquisa do site</li>
+                            <li> <img src="img/correto.svg"> Boost de alcance na aba comunidade</li>
+                            <li> <img src="img/correto.svg"> Prioridade na fila de espera do suporte</li>
                         </ul>
-                        <button class="btnAssinar">Assinar</button>
+                        <a href="premium.html"><button class="btnAssinar">Assinar</button></a>
                     </div>
 
                     <div class="planoPremium1">
                         <h3 class="premiumTitle1">Premium</h3>
                         <h4 class="planSem1">Plano semanal <br> R$ 07,00/sem</h4>
                         <ul class="contentPlan1">
-                            <li> <img src="imagens/normal_u36.svg"> Destaques nas áreas de pesquisa do site</li>
-                            <li> <img src="imagens/normal_u36.svg"> Boost de alcance na aba comunidade</li>
-                            <li> <img src="imagens/normal_u36.svg"> Prioridade na fila de espera do suporte</li>
+                            <li> <img src="img/correto.svg"> Destaques nas áreas de pesquisa do site</li>
+                            <li> <img src="img/correto.svg"> Boost de alcance na aba comunidade</li>
+                            <li> <img src="img/correto.svg"> Prioridade na fila de espera do suporte</li>
                         </ul>
                         <button class="btnAssinar1">Assinar</button>
                     </div>
@@ -115,12 +120,14 @@
                         <h3 class="premiumTitle2">Premium</h3>
                         <h4 class="planSem2">Plano semanal <br> R$ 07,00/sem</h4>
                         <ul class="contentPlan2">
-                            <li> <img src="imagens/normal_u36.svg"> Destaques nas áreas de pesquisa do site</li>
-                            <li> <img src="imagens/normal_u36.svg"> Boost de alcance na aba comunidade</li>
-                            <li> <img src="imagens/normal_u36.svg"> Prioridade na fila de espera do suporte</li>
+                            <li> <img src="img/correto.svg"> Destaques nas áreas de pesquisa do site</li>
+                            <li> <img src="img/correto.svg"> Boost de alcance na aba comunidade</li>
+                            <li> <img src="img/correto.svg"> Prioridade na fila de espera do suporte</li>
                         </ul>
                         <button class="btnAssinar2">Assinar</button>
                     </div>
+                        </div>
+                        
 
                     <h2 class="comunidade"> Comunidade</h2>
                     <p class="comunidadeParag"> Nós da SpreadFree também temos uma 
@@ -128,36 +135,53 @@
                         de usuários prontos para atender qualquer uma 
                         das suas necessidades!</p>
 
-                    <button class="comAqui">Comece por aqui</button>
-                    <img src="imagens/normal_u140.svg" alt="" class="sinalMais">
+                        <img src="img/figpessoas.png" class="pessoas">
 
-                    <img src="imagens/u133.svg" alt="" class="graficoFrente">
-                    <img src="imagens/u134.svg" alt="" class="graficoTras">
-            </main>
-    <footer>
-        <h2>ATENDIMENTO AO CLIENTE</h2>
-        <h3>Central de Ajuda</h3>
-        <h3>Fale Conosco</h3>
-        <h3>Ouvidoria</h3>
+                 <button class="comAqui">Comece por aqui</button>
+                   <a href="Comunidade.html"><img src="img/sinalmais.svg"   class="sinalMais"></a>
 
-        <h2>SOBRE A SPREADFREE</h2>
-        <h3>Sobre-nós</h3>
-        <h3>Políticas de privacidade</h3>
 
-        <h2>SIGA-NOS</h2>
-        <img src="imagens/instagram.png" alt="" class="instaLogo"> <h3 class="insta">Instagram</h3>
-        <img src="imagens/twitter-sign.png" alt="" class="twitterLogo"> <h3 class="twitter">Twitter</h3>
-        <img src="imagens/facebook.png" alt="" class="faceLogo"> <h3 class="facebook">Facebook</h3>
-
-        <h2 class="contat">CONTATO</h2>
-        <img src="imagens/at.png" alt="" class="arroba"> <h3 class="emailOficial">contato.spreadfree@outlook.com</h3>
-        <img src="imagens/telephone-symbol-button.png" alt="" class="telephone"> <h3 class="numTel">+55 (11)9XXXX-YYYY</h3>
-       <h4>Português (Brasil)</h4>
-        <img src="imagens/normal_u43.svg" alt="" class="cFooter">
-        <h3 class="footerSF">SpreadFree 2022</h3>
         
-    </footer>
+                    
+            </main>
 
+    <footer>
+        <img src="img/graficofrente.svg" alt="" class="graficoFrente">
+                    <img src="img/graficotras.svg" alt="" class="graficoTras">
+        <address>
+            <div class="footeratendcliente">
+                <h3> <b>ATENDIMENTO AO <br>CLIENTE</b></h3>
+                <h3 class="faleconosco">Fale Conosco</h3>
+            </div>
+            
+                <div class="Footersobrespreadfree">
+                <h3 class="sobrespread"><b>SOBRE A SPREADFREE</b></h3>
+                <h3>Sobre-nós</h3>
+                <h3 clas="politicadprivacidade">Políticas de privacidade</h3>
+            </div>
+            
+            <div class="footersiganos">
+                <h3 class="Siga"> <b>SIGA-NOS</b></h3>
+                <img src="img/instagram.png" alt="" class="instaLogo"> <h3 class="insta">Instagram</h3>
+                <img src="img/twitterimg.svg" alt="" class="twitterLogo"> <h3 class="twitter">Twitter</h3>
+            </div>
+            
+            <div class="footercontato">
+                <h3 class="contat"> <b>CONTATO</b></h3>
+                <img src="img/arrobaIcon.svg" alt="" class="arroba"> <h3 class="emailOficial">spreadfree@gmail.com</h3>
+            </div>
+            
+               <div class="footerMarcaRegistrada">
+               <h4 class="pt-br">Português (Brasil)</h4>
+                <img src="img/marcaregistrada.svg" alt="" class="cFooter">
+                <h3 class="footerSF">SpreadFree 2022</h3>
+        </div>
+            
+            </address>
+    </address>
+    </footer>
+    
     <script src="js/script.js"></script>
+
 </body>
 </html>
